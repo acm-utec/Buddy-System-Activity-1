@@ -1,2 +1,7 @@
-# Buddy-System-Activity-1
-Randomized pairs of the ACM-Members have the challenge to create a sample class on a topic of their liking. To keep track of their progress and to save their work, this repository is available.
+<h1 align="center">
+  <br>
+  <a href="https://www.instagram.com/acm.utec/"><img src="https://github.com/acm-utec/Buddy-System-Activity-1/blob/niceReadme/img/acm-utec-logo.png?raw=true" alt="Markdownify" width="200"></a>
+  <br>
+  Buddy System Activity 1: Sample Class
+  <br>
+</h1>
