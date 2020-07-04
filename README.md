@@ -48,6 +48,9 @@ $ git checkout -b name_of_your_team
 
 # Set the upstream of your branch so it is visible on the repository
 $ git push -u origin name_of_your_team
+
+# Create the team's folder inside of your branch (you shall work there)
+$ mkdir name_of_your_team
 ```
 
 You can also do this process on the repository page if you find it more efficient.
