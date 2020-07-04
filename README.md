@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://www.instagram.com/acm.utec/"><img src="https://github.com/acm-utec/Buddy-System-Activity-1/blob/niceReadme/img/acm-utec-logo.png?raw=true" alt="Markdownify" width="200"></a>
+  <a href="https://www.instagram.com/acm.utec/"><img src="https://github.com/acm-utec/Buddy-System-Activity-1/blob/master/img/acm-utec-logo.png?raw=true" alt="ACM Logo" width="200"></a>
   <br>
   Buddy System Activity I
   <br>
