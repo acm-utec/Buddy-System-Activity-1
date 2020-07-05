@@ -24,7 +24,7 @@
 
 From **July 6th** until **August 23rd**, 2020, all the members of the organization will be split into pairs, with the challenge of creating a sample class on a topic of their liking. The main goal of this event is to **promote research and the creation of intellectual material** between the members of our community.
 
-The **top 3 classes**, as selected by a jury, will be presented as part of an external event of the Universidad de Ingeniería y Tecnología - UTEC.
+The **top 3 classes**, as selected by a jury, will be presented as part of an external event in the Universidad de Ingeniería y Tecnología - UTEC.
 
 ## Guidelines
 
