@@ -2,7 +2,7 @@
 
 Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama) 
 
-![drl01](\img\drl01.png)
+![](https://github.com/acm-utec/Buddy-System-Activity-1/blob/Team5/Team5/img/drl01.png)
 
 ## Resources
 
