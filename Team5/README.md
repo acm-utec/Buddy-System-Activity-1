@@ -2,6 +2,8 @@
 
 Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama) 
 
+![drl01](C:\DJCA\utec\dev\Buddy-System-Activity-1\Team5\img\drl01.png)
+
 ## Resources
 
 ### Movies
