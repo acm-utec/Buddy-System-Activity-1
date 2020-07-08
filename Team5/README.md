@@ -1,6 +1,6 @@
-# Reinforcement Learning
+# Deep Reinforcement Learning
 
-Locked Topic by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama) 
+Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama) 
 
 ## Resources
 
