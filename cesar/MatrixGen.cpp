@@ -10,10 +10,9 @@ int main() {
     cin>>filas;
     srand(time(NULL));
     int random=0;
-    int contador_filas[filas],contador_columnas[filas];
+    int contador_filas[filas];
     for (int i=0;i<filas;i++){
         contador_filas[i]=0;
-        contador_columnas[i]=0;
     }
     double matriz[filas][filas];
     for (int i=0;i<filas;i++) {
