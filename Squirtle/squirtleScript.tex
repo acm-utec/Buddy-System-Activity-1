@@ -1,0 +1,210 @@
+% Script
+% 1. Pregunta: Realmente Importa dormir? Done
+% 2. Terminos Clave (Ciclo circadiano, cognitividad, performance, etc.) Done
+% 3. Como se puede estudiar el sueño Done
+% 4. Resultados de Estudios Eduardo
+% 5. Discusion y Conjeturas Eduardo
+% 6. Conclusiones nuestras Diego
+% 7. Reflexion Diego y Eduardo
+
+% Friday: Script
+% Saturday: Presentation
+
+\documentclass[]{IEEEtran}
+
+\title{Buddy System Squirtle Script}
+\author{Diego Linares \& Eduardo Castro}
+
+\begin{document}
+\maketitle
+
+\section{Motivational Question}
+
+The topic of this class, is going to be on sleep. More particularly, we are looking forward to answer the question: \textbf{Does sleep really matter?} \par 
+
+As university students, it is a common ocurrence that we choose to put our work on a higher priority compared to our sleep. We usually perceive that we are more productive this way, or that the lack of sleep is not going to have a tangible negative impact on our cognitive abilities the days that follow. \par 
+
+Phrases such as \par 
+
+\begin{quotation}
+    \textit{Dude, I just pulled off another all-nighter tonight.}
+\end{quotation}
+
+and \par 
+
+\begin{quotation}
+    \textit{Yea, who needs to sleep every day anyways?}
+\end{quotation}
+
+Have become more and more common, not only as a part of a joke, but also as a culture that has become fairly common between us. \par 
+
+The purpose of this class is \textit{not} to complain about how little sleep we are getting as students (we can do that on our free time). But rather, our goal is to check how sleep affects students, and how Computer Science, more especifically Data Analysis, can be used to study sleep and find interesting insights on the topic. \par 
+
+Wearable technologies as well as some other non-intrusive data collecting techniques allow us to obtain a lot of information on sleep. These can later be processed as we are going to see. We are gonna also see how different techniques of collecting data affect results, and overall the different information collected. \par 
+
+By the end, we want all attendees of this lecture to leave knowing the following 3 main points:
+
+\begin{itemize}
+    \item How does sleep work? And what factors are involved in proper sleep, according to the data analysis insights.
+    \item The relationship between sleep and IT usage. An area in which Human Computer Interaction is taking some steps forward.
+    \item How we, as students, can handle our sleep better and control the dreaded \textbf{sleep debt}.
+\end{itemize}
+
+Without further to do, we will go over some basic definitions that are needed for our class.
+
+\section{Keywords}
+It's important to have a clear understanding of all keywords in this presentation.
+
+\begin{itemize}
+    \item \textbf{Sleep inertia:} Period of time after waking up in which the subject is still suffering from dizziness or sleepiness. Tends to wear out through the first hour of being awake.
+    \item \textbf{Circadian rhythms:} Circadian rhythms are 24-hour cycles that are part of the body’s internal clock, running in the background to carry out essential functions and processes.  
+    \item \textbf{Sleep homeostasis:} Is a basic principle of sleep regulation. A sleep deficit elicits a compensatory increase in the intensity and duration of sleep, while excessive sleep reduces sleep propensity.
+    \item \textbf{Sleep pressure:} Pressure for sleep builds up in our body as our time awake increases. The pressure gets stronger the longer we stay awake and decreases during sleep, reaching a low after a full night of good-quality sleep.
+    \item \textbf{Sleep debt:} Cummulative hours of sleep that someone is missing after multiple nights of insufficient sleep. Sleep debt is only counted when the subject sleeps less than 6 hours at a time. Mostly compensated when the subject sleeps-in during weekends or off-days. 
+    \item \textbf{PANAS scale:}  A survey that can measure your mood.
+    \item \textbf{Sleep deprivation:} Term usually referred to the action of not getting sleep, completely supressing it. However it technically stands in for not getting sufficient sleep during a single night. When it happens multiple times it leads to the previously defined sleep debt.
+\end{itemize}
+
+\section{How can we Study Sleep?}
+
+Throughout multiple papers, we have noticed that there are different ways of monitoring both sleep periods and the cognitive impact that these periods cause. \par 
+
+Usually, scientists don't want to study sleep by itself, but they rather want to see what impact that this causes on the cognitive performance and overall health of the subjects. As a result, we are considering three different ways of noticing both sleep and its impact on our acting.
+
+\subsection{Intrusive and Lab Controlled Approaches}
+
+These studies are usually done to see the \textbf{sleep deprivation} effects on the test subjects. \par 
+
+The amount of \textbf{control variables} such as the demographic, exercises of the cognitive test, and other components of the data obtaining process are much higher. However, a downside of this approach is that the subjects are much more conditioned to perform differently during the cognitive tasks, since they are aware of themselves being tested. Also, if the data is being submitted by the subjects themselves, this might be subjected to some minor error caused by their subjective perception of their own sleep. \par 
+
+This kind of study was done in the first paper that we analyzed: \textit{Sleep Debt in Students}. \par 
+
+This was a study done in a Large West Coast University in the US, during 4 months, in which around 76 students from years freshman to senior, were taken for a controlled sleep habit experiment. A screen logger was installed on thier phone as well as some monitoring hardware on their PC. The goal was to check the amount of time they spent on their phone, more particularly on Facebook, and on their computer. In addition, when using their computer, the time they spent in average looking at each of the applications in particular. This was to measure the time multitasking each application, as one of the main hypothesis for sleep debt consequences is the lack of focus capacity for students. \par
+
+Some hypothesis that can be made in these type of study, and this actual study did, were the following:
+
+\begin{itemize}
+    \item What is the impact of sleep on the perception of work pressure and productivity?
+    \item Is sleep related to college students multitasking on the computer?
+    \item Is sleep debt associated with Facebook use?
+    \item How is sleep debt related to your mood?
+\end{itemize}
+
+Apart from the data collected by the software in the students' devices, the students also reported for themselves. They were asked to fill out a sleep journal with their sleep and awake time, as well as a PANSA scale which denoted their mood. Finally, towards the end of the study, they were taken for an  in which they explained some of their experiences. 
+
+\subsection{Using Wearables and Health Apps}
+
+These studies are mainly for sleep patterns, and are often supported by the amount of people concerned for their health that use different devices on their bodies throughout the night. The growing amount of these devices is often related to the newer and newer studies that come out mentioning the relation between insufficient sleep and bad cognitive performance, poor productivity and even workplace accidents.  \par 
+
+The study we checked for these type of studies, is \textit{How do we Sleep? Using the Oura ring}. \par 
+
+The first main advantage that we saw from the get go in these kind of studies was the amount of data available through the wearable, almost 10 thousand users of the device were able to record the equivalent of 5 years of sleep data in a short period of time. This gives us greater insights and even allow us to formulate mathematical models of how does sleep work. Which is really interesting. \par 
+
+A minor setback of only using wearables for collecting data, is that they are not so advanced yet that you can receive much information about the cognitive performance of the user. Sure, a user may be active after 2 hours of sleep, for example, but there's not too much information on what he is doing and if he is doing his tasks appropriately.
+
+Anyways, for projects which scope is just to monitor sleep time, and try to be as little intrusive to the user's daily lifestyle, a wearable, such as a band or ring, is a perfect example of something that does not condition the user as much. \par 
+
+Sometimes, as a part of trying to live a healthier lifestyle however, the wearable's app (which is a common feature most of them have, for their use with a smartphone), might give messages or reminders to the user about how their sleep patterns are going and if he should make some changes to have a healthier lifestyle. 
+
+\subsection{Non-intrusive studies}
+
+Since 2004, and mostly related with medical related studies (which we can consider sleep to be one of them), non intrusive studies have been quite effective for collecting data.
+
+In this case we can also consider the fact of the subjects not knowing most of the time that their data was being collected. This was due to the fact that the tasks which they did to get their data collected were mundane and part of a daily activity. There are some concerns on the ethical value of these studies, however, we can't deny that the amount of data collected is valuable and much less biased compared to some other studies. \par
+
+The article that we revised for the purpose of this class was \textit{Harnessing the web for Population-Scale Sensing}, which was a study done by \textbf{Microsoft} through their search engine: Bing. How did this work? 
+
+\begin{itemize}
+    \item They measured two main aspects of the use of the engine as a way to measure cognitive performance: The amount of time between each different keystroke (in miliseconds), and the time after the search popped up, for clicking in one of the desired results.
+    \item They cleaned up results that might have been botched due to stall time by the users or something similar.
+    \item Build a distribution based on that.
+\end{itemize}
+
+Although this study had much more diverse amount of data with over 75 million measurements due to the amount of users Bing somehow still gets, we have less controlled variables about the subjects we are taking the information from. That is why so many of the measurements had to be taken away from the results, as well as taking into account which queries were being made since the clicking time could vary regarding those. \par 
+
+In these kind of studies, the amount of measurements might also come from wearables or something different. \par 
+
+In fact, a nice research question could be what would be a nice way of monitoring the sleep of the subjects without being invasive or conditioning them in a way. The way the study worked to solve this was just deleting amounts of sleep time that were smaller than 4 hours, so probably naps, or longer than 12, since those could be related to medical conditions or something similar. 
+
+\section{Study Results}
+
+\subsection{Intrusive and Lab Controlled Approaches}
+
+The average sleep duration was 7.9 hours. 
+
+The impacts of sleep on the perception of work pressure and productivity were interesting. Many students feel more work pressure the next day when they sleep less. This correlation was found to be negative. On the other side, deadlines have a positive correlation with work pressure, which means that students feel more pressure when deadlines are close. In many interviews with students, was found that wasting time with technology was the reason for staying late at night. Furthermore, longer sleep was related to a more relaxed schedule, which makes sense for less productivity. Many students also use less tech on weekends because they sleep more.
+
+The effects of sleep and computer usage are significant. There is a positive correlation between sleep duration and focus duration. The less you sleep, the less your focus is. Sleep deprivation resulted in less focus. On the other hand, deadlines are correlated negatively with focus duration, this means the more deadlines, less focus. There are different opinions between students, many of then think the internet could help them wake up and others think they are just a constant distraction.
+
+The result of sleep and social media usage is quite interesting. There is a correlation between sleep debt and time on Facebook, meaning the more time you spend on social media, the less sleep you get. This is even more shocking if there are more deadlines and workload. Some students revealed this usage as a strategy to stay awake and others consider it part of the daily routine. Furthermore, 51 students share that they escape from schoolwork by using social media, they do it to relieve stress.
+
+This study brings us a correlation between sleep and mood. The more sleep debt you develop, the more negative is the mood. Otherwise, females turn out to have a more positive mood than boys.
+
+\subsection{Using Wearables and Health Apps}
+
+The result of this paper are based on the data acquired by Oura rings users. They take only in count users with at least ten nights register, and the sample included more than one million nights. They obtain a normal distribution of sleep with most users sleeping less than 7 hours reason for that are: 
+\begin{itemize}
+    \item Sleep tracker users sleep less than the normal population.
+    \item Optimistic self-assessment.
+    \item It's hard to distinguish between time in bed and sleep time.
+\end{itemize}
+The data show us than lack of sleep is correlated with shorter sleep duration and efficiency. Good sleepers sleep on average 7.35 hours, half of these sleepers were consistent and they represent 23\% of the sample. On the other hand, many sleepers were normally consistent with his bedtime. There is also seen to be a high correlation between late bedtime and low sleep score.
+
+\subsection{Non-intrusive studies}
+
+The result of this research bring us three functions which model the influence on cognitive performance of time of day. The following functions bring us these information:
+
+\begin{itemize}
+    \item \textbf{Time of day:} The cognitive performance varies with time of day but is slowest around 04:00-06:00 h, which is the habitual time for sleep. The performance quickly improves after typical wake times and become slightly slower in the evening, this match with circadian rhythm processes in sleep.
+    
+    \item \textbf{Time after awakening:} The cognitive performance varies substantially after the first two hours awake proving the existing sleep inertia. The first two hours after wake up the performance is kind of slow but after these hours the performance increase substantially. After this point, performance is best and slowly worsens until a point of poorest performance is reached at around 16 hours of awake time, which make sense because our body needs 8 hours of sleep, this is consistent with the homeostatic sleep drive.
+    
+    \item \textbf{Time in bed:} There a relation between performance and time in bed but this relation is less strong than the other two correlations. This relation could be explained in a U-Shaped curve where it's center indicating the optimal performance is between sleeping 7.0-7.5 hours of sleep, sleep more or less than these hours results in less performance, this is a relationship that also appears in mortality and sleep duration.
+    
+\end{itemize}
+
+\section{Discussion and Conjectures}
+
+There are some \textbf{ethic issues} to be taken into consideration when we talk about data collecting without telling the subjects about their activities being recorded in some way. Knowing that you are being tested can condition a subject as we explained previously in the class, however, there is a right to know when your information is being used in some way or another, and the way you use the browser might fall into one of those categories. \textit{The paper of Harnessing the web did not inform about this fact in their text.} This must be taken into accoun for any future studies, as data is very valuable and complains can occur if some user uses personal information and this is recorded in some way that they do not desire. \par 
+
+On the topic of \textbf{further studies} that could be pursued based on what we saw today, both cognitive performance when using IT and harnessing the web for data are both very interesting topics that would be nice to come back to in the future. It would be nice to see what other aspects of cognitive performance can be measured with IT tools. For example, something that came to mind when reading about the clicking time on the search results, mouse accuracy could be an interesting topic to measure. Harnessing the web is a great way of getting information without interfering with the user's daily use of applications and therefore not conditioning that much during studies. However, the previously mentioned ethical concerns we have remain and must be taken into account for the future. 
+
+Another topic to discuss is the  \textbf{measurement}, this topic is key to make better researchers and understand how accurate the result can be. Subjective information can be hard to quantify. Trust on subjective measures such as surveys capturing “typical” sleep it's not precise and could lead to mistakes in the investigation. On the other hand, much existing research on sleep turns out to have a small-scale and laboratory-based studies, this lead to a lack of results in the real-world conditions. But thanks to computers this could be more precise and bigger. As we heard, relying on wearable devices, keystrokes, and click interactions could lead us with more precise information that could be easily gathered by a computer.
+
+\section{Conclusion}
+
+\subsection{About the Different Techniques of Collecting Data}
+
+Although there is no particular \textbf{best way} of taking measures in your data collecting data process, there certainly are \textit{do and do not's} so your results are more accurate to the reality we see. \par
+
+\begin{itemize}
+    \item \textbf{Try that your Measures do not condition the subject:} As they can perform differently due to the pressure of being tested, or other similar factors. Instead, the studies we saw tried to use software like \textit{Kidlogger} or just the search box feature of the Bing search engine to collect data in a more discrete way.
+    \item \textbf{Some values might be eliminated considering the control variables:} The less control variables, and therefore less control you have over the study, the bigger might be the amount of values that might not be too according to the reality of what you are trying to study. For example, there was the case of the values regarding clicking on the search results of the engine. Results higher than 2 minutes were eliminated since those could be related to stalling rather than sleep causes.
+\end{itemize}
+
+Taking these into account can be very relevant for future statistical studies. 
+
+\subsection{About the Sleep Patterns and Facts}
+
+In a similar fashion, we must note that sleep is not the same for everyone, however, similar consequences may apply to those who insist on having insufficient sleep for periodic nights, especially in the cognitive performacne area, and to a lesser extent, also in the emotional part. 
+
+\begin{itemize}
+    \item \textbf{You must take into account your chronotype:} There is in fact people that perform better later in the day, rather than earlier, genetically speaking. Although we are not talking about fully nocturnal people or something like that, the circadian rhythm of the person, and their sleep debt might cause them to fully change their sleep cycle, so they might not perform as normal during the usual hours.
+    \item \textbf{Massive statistical studies show how lower performance is correlated to insufficient sleep:} This was mainly proven by the \textit{Harnessing the Web} study, but also we saw how our demographic, of young is very affected by this. Since not only cognitive performance but mental health is important for University students, this might be important information for those who don't prioritize sleep. 
+\end{itemize}
+
+\subsection{Answer to the Motivational Question}
+
+In the grand scheme of things, \textbf{yes, sleep does matter, as it affects cognitive performance and the overall physical and psychological health of a person.} We saw how different studies, invasive and non-invasive on multiple subjects (from a very small set of students to all of the user from the search-engine, Bing. 
+
+\section{Reflection} % Here you must fill one paragraph on what you learned from this class and such.
+
+\subsection{From Diego} 
+
+It is us to believe that us, as teens or young adults, are sleep-proof, and can perform just as well when we are sleep-deprived, compared to us after sufficient sleep. However, as you can see, the differences in performance and multi-tasking are there, and those add up in the long term. Makes you wonder how much time you would have saved when working on projects if you did them on appropriate sleep. I was also quite impacted by the perceived increased productivity you get when working on lower sleep. And in terms of techniques for the studies, I was interested in the values that have to be eliminated when performing measures in order to not have your medians, quantiles, and other parts which are crucial to the study, affected. These shall be important for any future projects which involve statistics and data analysis.
+
+\subsection{From Eduardo}
+
+Along this journey of trying to prove if sleep is useful or not, we found the work of so many people trying to understand and prove the importance of sleep. They have shown us not only the importance of this topic but also they way of becoming better students. Is not just about work day and night, is about to work smartly and rest well. Is in our hands to become better students by understanding our body and the importance of taking care of him.
+
+\end{document}
