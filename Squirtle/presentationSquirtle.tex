@@ -1,0 +1,326 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usetheme{Madrid}
+
+% Presentation:
+% 1. Pregunta: Realmente Importa dormir? Diego
+% 2. Terminos Clave (Ciclo circadiano, cognitividad, performance, etc.) Eduardo done
+% 3. Como se puede estudiar el sueño Diego
+% 4. Resultados de Estudios Eduardo
+% 5. Discusion y Conjeturas Eduardo
+% 6. Conclusiones nuestras Diego
+% 7. Reflexion Diego y Eduardo
+
+\title{Buddy System Activity 1: Team Squirtle}
+\author{Diego Linares \and Eduardo Castro }
+\institute{University of Engineering and Technology - UTEC\\ACM-UTEC - IEEE-CS}
+\date{September, 2020}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+    \frametitle{Table of Contents}
+    \tableofcontents
+\end{frame}
+
+\section{Motivational Question}
+
+\begin{frame}{Motivational Question}
+
+Let us ask the following: \\
+
+\medskip
+
+\begin{quotation}
+    \textbf{Does sleep really matter?} \\
+\end{quotation}
+
+\medskip
+
+As students, it is a common ocurrence that we choose to put work on a higher priority than sleep. We usually perceive that we are more productive that way. \\
+
+\medskip
+
+We have become part of a culture that not only approves of this, it promotes it in order to achieve more, \textbf{allegedly}.
+    
+\end{frame}
+
+\begin{frame}{Objetive of the Class}
+
+Check how sleep affects people in their cognitive performancec and how can Data Analysis and Computer Science contribute to that. For example, collecting data through \textbf{wearable technology.} \\
+
+\medskip
+
+We want to cover 3 main points:
+
+\begin{itemize}
+    \item How does Sleep Work?
+    \item Relationship between sleep and IT usage.
+    \item How can we sleep better?
+\end{itemize}
+    
+\end{frame}
+
+\section{Keywords}
+
+\begin{frame}{Keywords}
+    It's important to have a clear understanding of all keywords in this presentation.
+
+\begin{itemize}
+    \item \textbf{Sleep inertia:} Period of time after waking up in which the subject is still suffering from dizziness or sleepiness. Tends to wear out through the first hour of being awake.
+    \item \textbf{Circadian rhythms:} Circadian rhythms are 24-hour cycles that are part of the body’s internal clock, running in the background to carry out essential functions and processes.  
+    \item \textbf{Sleep homeostasis:} Is a basic principle of sleep regulation. A sleep deficit elicits a compensatory increase in the intensity and duration of sleep, while excessive sleep reduces sleep propensity.
+    \item \textbf{Sleep pressure:} Pressure for sleep builds up in our body as our time awake increases. The pressure gets stronger the longer we stay awake and decreases during sleep, reaching a low after a full night of good-quality sleep.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Keywords}
+\begin{itemize}
+     \item \textbf{Sleep debt:} Cummulative hours of sleep that someone is missing after multiple nights of insufficient sleep. Sleep debt is only counted when the subject sleeps less than 6 hours at a time. Mostly compensated when the subject sleeps-in during weekends or off-days. 
+    \item \textbf{PANAS scale:}  A survey that can measure your mood.
+    \item \textbf{Sleep deprivation:} Term usually referred to the action of not getting sleep, completely supressing it. However it technically stands in for not getting sufficient sleep during a single night. When it happens multiple times it leads to the previously defined sleep debt.
+\end{itemize}
+\end{frame}
+
+
+\section{How Can We Study Sleep?}
+
+\subsection{Invasive and Lab Controlled Approaches}
+
+\begin{frame}{Invasive and Lab Controlled Approaches}
+
+Usually more related to test \textbf{sleep deprivation} on subjects. \\
+
+\medskip
+
+Bigger amount of \textbf{control variables}, such as demographic, and excercises to measure cognitive performance. However, the subjects are more conditioned as a result. \\
+
+\medskip
+
+This was used on the paper of \textit{Sleep Debt in Students}. Done in a big West Coast University, on 76 students, by keylogging their phones and asking them to submit surveys and keep a sleeping diary. \\ 
+
+\end{frame}
+
+\begin{frame}{Invasive and Lab Controlled Approaches }
+
+Goal was to measure their multitasking average time as a way to measure focus as well as some other questions:
+
+\begin{itemize}
+    \item Impact of sleep on the perception of work pressure and productivity.
+    \item Sleep and its relation to multitasking.
+    \item Association with Facebook use.
+    \item Relation with mood. (Measured with a PANSA scale).
+\end{itemize}
+
+\medskip
+
+Sometimes interviews can also be a nice tool to obtain some more insights, as it was done here.
+    
+\end{frame}
+
+\subsection{Using Wearables and Health Apps}
+
+\begin{frame}{Using Wearables and Health Apps}
+
+These studies helped more identifying sleep patterns and are supported by the ever-increasing amount of people which choose to use these devices for their help. \\
+
+\medskip 
+
+In this case, we checked the \textit{How do we Sleep?} paper which featured the Oura ring. \\ 
+
+\medskip
+
+Already we see a higher amount of people that participate in these studies, and therefore a higher amount of sleep data recorded.
+
+\end{frame}
+
+\begin{frame}{Using Wearables and Health Apps}
+
+A minor setback being that you couldn't get much info. about the cognitive performance of the suer. \\
+
+\bigskip 
+
+But for the scope of its project, it worked pretty well, and it actually had quite a bit of influence on the lifestyle of its users.
+
+\end{frame}
+
+\subsection{Non-Invasive Studies}
+
+\begin{frame}{Non-Invasive Studies}
+
+Have taken popularity since 2004 and especially in the medical field. \\ 
+
+\bigskip
+
+Data collection usually forms part of a mundane or daily activity of the subject. \textbf{Sometimes they don't know the data is being collected.} \\ 
+
+\bigskip 
+
+In this case, we used \textit{Harnessing the web for Population Scale Sensing} done by Microsoft using their search engine Bing. \\
+
+\end{frame}
+
+\begin{frame}{Non-Invasive Studies}
+
+Data was measured through two main features: 
+
+\begin{itemize}
+    \item \textbf{Search Box:} Time between the keystrokes of every single word.
+    \item \textbf{Results Page:} Time to click on a results after they come out.
+\end{itemize}
+
+\bigskip
+
+75 million recordings show how effective these studies are, though a lot of them have to be cut since there is much less control of the subjects. 
+    
+\end{frame}
+
+\section{Study Results}
+
+\subsection{Invasive and Lab Controlled Approaches}
+
+\subsection{Using Wearables and Health Apps}
+
+\subsection{Non-Invasive Studies}
+
+\begin{frame}{Invasive and Lab Controlled Approaches}
+
+The average sleep duration was 7.9 hours. \\
+\bigskip
+Many students feel more work pressure the next day when they sleep less. \\
+\bigskip
+There is a positive correlation between sleep duration and focus duration \\
+\bigskip
+Sleep debt and time on Facebook. \\
+\bigskip
+There is a correlation between sleep and mood. \\
+
+\end{frame}
+
+\begin{frame}{Using Wearables and Health Apps}
+
+Most users sleeping less than 7 hours reason for that are: \\
+\begin{itemize}
+    \item Sleep tracker users sleep less than the normal population. \\
+    \item Optimistic self-assessment. \\
+    \item It’s hard to distinguish between time in bed and sleep time. \\ 
+\end{itemize}
+
+The data show us than lack of sleep is correlated with shorter sleep duration and efficiency. \\
+
+There is also seen to be a high correlation between late bedtime and low sleep score. \\
+
+\end{frame}
+
+\begin{frame}{Non-intrusive studies}
+Three functions which model the influence on cognitive performance of time of day.
+\begin{itemize}
+    \item \textbf{Time of day:} The cognitive performance varies...
+    \item \textbf{Time after awakening:}  The first two hours after wake up...
+    \item \textbf{Time in bed:} Time in bed: There a relation between performance and time in bed but this relation is less strong...
+\end{itemize}
+\end{frame}
+
+\section{Discussion and Conjectures}
+
+\begin{frame}{Discussion and Conjectures}
+    \begin{itemize}
+        \item Ethic issues
+        \item Further studies
+        \item Measurement
+    \end{itemize}
+\end{frame}
+
+\section{Conclusions}
+
+\subsection{About the Different Techniques of Collecting Data}
+
+\begin{frame}{About Data Collection Techniques}
+
+There is no \textbf{best way} of taking measures, but there are \textit{do and do nots}, so you can be more accurate to reality.
+
+\begin{itemize}
+    \item Make your measures in a way that you are not conditioning the subject.
+    \item Some values might be elimintated considering the control variables that you are using.
+\end{itemize}
+
+\medskip
+
+These will be taken into account for future statistical studies.
+    
+\end{frame}
+
+\subsection{About the Sleep Patterns and Facts}
+
+\begin{frame}{About Sleep Patterns and Facts}
+
+Sleep conditions are not the same for everyone, but similar consequences may apply to those who choose to suppress it.
+
+\begin{itemize}
+    \item You must take into account your chronotype and how shifted you are.
+    \item Massive statistical studies show how lower performance is correlated to insufficient sleep.
+\end{itemize}
+
+\medskip
+    
+IT usage has a 2 way relation with sleep and has some influence on it. Though we can't fully blame it.    
+    
+\end{frame}
+
+\subsection{Answer to the Motivational Question}
+
+\begin{frame}{Answer to the Motivational Question}
+
+In the grand scheme of things:
+
+\begin{quotation}
+    \textbf{Yes, sleep does matter, as it affects cognitive performance and overall physical and psychological health of a person}. \\
+\end{quotation}
+
+\bigskip
+    
+And yes... this applies especially to students.    
+    
+\end{frame}
+
+\section{Reflection}
+
+\begin{frame}{Diego's Reflection}
+
+It is easy to believe that we are sleep-proof. But it is much harder to deny the evidence that is right there and proves otherwise. \\ 
+
+\bigskip 
+
+This shall be a wake-up call in that sense. \\
+
+\bigskip
+
+Future studies on data analysis will also take into account all the stuff learned while researching for this class. 
+
+\end{frame}
+
+\begin{frame}{Eduardo's Reflection}
+    Along this journey...\\
+    \bigskip
+    The work of so many people trying to understand and prove the importance of sleep...\\
+    \bigskip
+    Becoming better students...\\
+    \bigskip
+    Is not just about work day and night... \\
+    \bigskip
+    Is in our hands.\\
+    
+\end{frame}
+
+\end{document}
