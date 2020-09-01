@@ -1,6 +1,10 @@
-# Deep Reinforcement Learning
+# Q-Learning
 
-Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama) 
+Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Miguel Angel Lama)
+
+
+
+## Reinforcement Learning 
 
 ![](https://github.com/acm-utec/Buddy-System-Activity-1/blob/Team5/Team5/img/drl01.png)
 
@@ -12,20 +16,19 @@ Topic Chosen by Team N° 5 ([Dante Chavez](https://github.com/ThePeriod) and Mig
 
 ### Massive Online Open Courses (MOOCs)
 
-* [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamentals-of-reinforcement-learning)
-* [Reinforcement Learning in Finance](https://www.coursera.org/learn/reinforcement-learning-in-finance)
-* [Practical Reinforcement Learning](https://www.coursera.org/learn/practical-rl)
+* M. White, A. White. (2019). [Fundamentals of Reinforcement Learning](https://www.coursera.org/learn/fundamentals-of-reinforcement-learning). Coursera × University of Alberta
+* P. Shvechikov, A. Panin. (2019). [Practical Reinforcement Learning](https://www.coursera.org/learn/practical-rl). Coursera × National Research University - Higher School of Economics
 
 ### Books
 
+* Reinforcement Learning, state-of-the-art.
+* Reinforcement Learning, an introduction.
+* Hands-on Reinforcement Learning for Games: Implementing self-learning agents using AI techniques
 * Deep Reinforcement Learning: Fundamentals, Research and Applications
 * Foundations of Deep Reinforcement Learning: Theory and Practice in Python
-* Hands-on Reinforcement Learning for Games: Implementing self-learning agents using AI techniques
 * Applied Reinforcement Learning with Python with OpenAI Gym, Tensorflow and Keras
 * Deep Reinforcement Learning: Frontiers of AI
 * Deep Reinforcement Learning Hands-on
-* Reinforcement Learning, an introduction.
-* Reinforcement Learning, state-of-the-art.
 * Deep Reinforcement Learning in Action
 
 ### Papers
